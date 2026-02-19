@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
     body{
         background-image: linear-gradient(rgb(0, 217, 255), rgb(0, 50, 73));
     }
@@ -20,7 +20,65 @@
     }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (orientation: portrait){@charset "UTF-8";
+
+
+/*paltea de cores
+verde: #49a09d
+lilás: #5f2c82*/
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: #00b7ff;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521);
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease;
+}
+
+section#login > div#imagem{
+    background: #00b7ff url(../imagens/pexels-marketingtuig-87223.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: block;
+    
+}
+
+section#login > div#formulario{
+    display: block;
+    padding: 10px;
+}
+    
+
+
+@media screen and (min-width: 992px) {
     body{
          background-image: linear-gradient(rgb(0, 217, 255), rgb(0, 50, 73));
     }
