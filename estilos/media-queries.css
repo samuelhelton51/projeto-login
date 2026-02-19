@@ -20,7 +20,7 @@
     }
 }
 
-@media screen and (orientation: portrait){@charset "UTF-8";
+@media screen and (orientation: portrait){
 
 
 /*paltea de cores
@@ -74,6 +74,8 @@ section#login > div#imagem{
 section#login > div#formulario{
     display: block;
     padding: 10px;
+}
+
 }
     
 
