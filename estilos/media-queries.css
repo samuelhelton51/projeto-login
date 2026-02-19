@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 992px) and (min-height:600px){
+@media screen and (min-width: 768px) and (max-width: 992px) {
     body{
         background-image: linear-gradient(rgb(0, 217, 255), rgb(0, 50, 73));
     }
